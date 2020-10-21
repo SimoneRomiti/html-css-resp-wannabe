@@ -133,48 +133,13 @@ img {
 /* MEDIA QUERY MOBILE */
 @media screen and (max-width: 420px) {
 
-  body{
-    font-size: 18px;
-    font-family: cursive;
-  }
-
-  .row{
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  img{
-    height: 100px;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  #lezioni .row > .left,
-  #lezioni .row > .right,
   #steps .row > .left,
-  #steps .row > .central,
-  #steps .row > .right {
+  #steps .row > .central {
     width: 100%;
-    float: none;
   }
 
-  #lezioni .row > .right,
-  #steps .row > .central,
-  #steps .row > .right{
+  #steps .row > .central{
     padding-top: 25px;
-  }
-
-  #lezioni,
-  #steps,
-  #why {
-    padding: 15px 5px;
-    border: 5px outset lightgrey;
-  }
-
-  #steps{
-    margin: 50px 0;
   }
 
 }
